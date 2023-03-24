@@ -1,0 +1,27 @@
+.show_price_predict {
+  height: 50px;
+  background-color: rgb(30, 41, 59);
+  border-radius: 10px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  color: #fff;
+
+}
+
+
+.show_price_predict:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px white;
+}
+
+.show_price_predict:hover {
+  color: #fff;
+  box-shadow: 0 0 5px white;
+  text-shadow: 0 0 5px white;
+  transform: scale(1.5);
+  transition: 3s;
+}
